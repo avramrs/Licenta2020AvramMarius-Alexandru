@@ -178,7 +178,7 @@ def interpol(x_v, shares, p):
     return s
 
 
-def partial_interpol(x_v, ident, share, q):
+def partial_interpol(x_v, ident, q):
     prod = 1
     prod2 = 1
     for j in x_v:
@@ -186,7 +186,6 @@ def partial_interpol(x_v, ident, share, q):
             prod *= j
             prod2 = j - ident
     fract = mul_mod(mod_inv(prod2, q), prod, q)
-    fract = mul_mod(share, fract, q)
     return fract
 
 

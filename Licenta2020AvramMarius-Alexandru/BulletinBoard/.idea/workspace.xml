@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="142b02b1-3dfa-4246-8fa1-108c5020c581" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WRMZTlh0uM6QpwnWDNjvXCdT7T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\I\PycharmProjects\BulletinBoard\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.BulletinBoard5000">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BulletinBoard" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/mixnet" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/mixnet/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BulletinBoard5000" type="Python.FlaskServer" singleton="false">
+      <option name="additionalOptions" value="-p 5000" />
+      <module name="BulletinBoard" />
+      <option name="target" value="$PROJECT_DIR$/app/routes.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="SECRET_KEY" value="password" />
+        <env name="DATABASE" value="test.db" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\I\PycharmProjects\BulletinBoard\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BulletinBoard5001" type="Python.FlaskServer" singleton="false">
+      <option name="additionalOptions" value="-p 5001" />
+      <module name="BulletinBoard" />
+      <option name="target" value="$PROJECT_DIR$/app/routes.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="SECRET_KEY" value="password" />
+        <env name="DATABASE" value="msgboard.db" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\I\PycharmProjects\BulletinBoard\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.BulletinBoard5000" />
+      <item itemvalue="Flask server.BulletinBoard5001" />
+      <item itemvalue="Python.client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="142b02b1-3dfa-4246-8fa1-108c5020c581" name="Default Changelist" comment="" />
+      <created>1579108009786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579108009786</updated>
+      <workItem from="1579108011121" duration="5490000" />
+      <workItem from="1579163829082" duration="7712000" />
+      <workItem from="1579174770211" duration="13875000" />
+      <workItem from="1579253027953" duration="3102000" />
+      <workItem from="1579979201026" duration="40000" />
+      <workItem from="1579981274281" duration="26000" />
+      <workItem from="1579981354451" duration="27000" />
+      <workItem from="1579982146724" duration="48000" />
+      <workItem from="1580145101778" duration="4534000" />
+      <workItem from="1580201986423" duration="10383000" />
+      <workItem from="1580221392566" duration="22495000" />
+      <workItem from="1580284604551" duration="67000" />
+      <workItem from="1580288605223" duration="1101000" />
+      <workItem from="1580400398303" duration="6212000" />
+      <workItem from="1580461929761" duration="10298000" />
+      <workItem from="1580494716533" duration="1944000" />
+      <workItem from="1580548215110" duration="5501000" />
+      <workItem from="1580555174001" duration="2658000" />
+      <workItem from="1580572792228" duration="3754000" />
+      <workItem from="1580579270147" duration="351000" />
+      <workItem from="1580584166321" duration="624000" />
+      <workItem from="1580629530692" duration="22000" />
+      <workItem from="1580629618801" duration="1076000" />
+      <workItem from="1580635424141" duration="4782000" />
+      <workItem from="1580652372079" duration="5035000" />
+      <workItem from="1580667190432" duration="3362000" />
+      <workItem from="1580739074970" duration="3117000" />
+      <workItem from="1580755456649" duration="1973000" />
+      <workItem from="1580796918687" duration="5203000" />
+      <workItem from="1580813532009" duration="674000" />
+      <workItem from="1580825561945" duration="84000" />
+      <workItem from="1580828424696" duration="7939000" />
+      <workItem from="1580920346896" duration="497000" />
+      <workItem from="1580996292949" duration="4933000" />
+      <workItem from="1581007624391" duration="2970000" />
+      <workItem from="1581013980349" duration="694000" />
+      <workItem from="1581064710055" duration="131000" />
+      <workItem from="1581064900660" duration="2616000" />
+      <workItem from="1581166577470" duration="1994000" />
+      <workItem from="1581169758878" duration="3233000" />
+      <workItem from="1581235941277" duration="6954000" />
+      <workItem from="1581249223656" duration="601000" />
+      <workItem from="1581252193475" duration="3960000" />
+      <workItem from="1581262707538" duration="3813000" />
+      <workItem from="1581268083684" duration="1787000" />
+      <workItem from="1581271843169" duration="6759000" />
+      <workItem from="1581360251843" duration="390000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581068746208">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1581068746208" />
+    <state x="534" y="193" key="EnvironmentVariablesDialog" timestamp="1580635605194">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="534" y="193" key="EnvironmentVariablesDialog/0.0.1600.860@0.0.1600.860" timestamp="1580635605194" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1581284947886">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1581284947886" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1581284947886">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1581284947886" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1581284947886">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1581284947886" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1581284947886">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1581284947886" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1580150589728">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580150589728" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1580150589728">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1580150589728" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1580150589728">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1580150589728" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1580150589728">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1580150589728" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1580637049360">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1600.860@0.0.1600.860" timestamp="1580637049360" />
+    <state x="301" y="73" key="SettingsEditor" timestamp="1580797771915">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="73" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1580797771915" />
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1581253059748">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1581253059748" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BulletinBoard$BulletinBoard5001.coverage" NAME="BulletinBoard5001 Coverage Results" MODIFIED="1581282965400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BulletinBoard$client.coverage" NAME="client Coverage Results" MODIFIED="1579259556055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/mixnet" />
+    <SUITE FILE_PATH="coverage/BulletinBoard$BulletinBoard5000.coverage" NAME="BulletinBoard5000 Coverage Results" MODIFIED="1581284794996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BulletinBoard$BulletinBoard.coverage" NAME="BulletinBoard5000 Coverage Results" MODIFIED="1580216221925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

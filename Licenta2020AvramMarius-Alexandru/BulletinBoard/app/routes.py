@@ -22,10 +22,15 @@ def get_history():
 
 @app.route('/writers/<W>', methods=['GET'])
 def get_writer(W):
-    data = bb.get_writer(W)
-    table = ItemTable(data)
-    response = make_response(wrap_html(table.__html__()))
-    response.headers['data'] = json.dumps(data)
+    if "id" in request.args:
+        post_id = request.args["id"]
+        data = bb.get_writer_id(post_id, W)
+        response = make_response(json.dumps(data))
+    else:
+        data = bb.get_writer(W)
+        table = ItemTable(data)
+        response = make_response(wrap_html(table.__html__()))
+        response.headers['data'] = json.dumps(data)
     return response
 
 

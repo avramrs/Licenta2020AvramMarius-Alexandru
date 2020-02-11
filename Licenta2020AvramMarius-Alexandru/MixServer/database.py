@@ -11,12 +11,24 @@ def get_all_messages():
 
 
 def get_batch_messages(batch_id):
-    data = Messages.query.filter(Messages.batch_id == batch_id).all()
+    data = Messages.query.filter(Messages.batch_id == batch_id, Messages.verified == "True").all()
     messages = [
         dict(id=message.id, batch_id=message.batch_id, i=message.i, m=message.m, r=message.r, verified=message.verified)
         for message in data]
     return messages
 
+def get_unverified_messages(batch_id):
+    data = Messages.query.filter(Messages.batch_id == batch_id, Messages.verified == "False").all()
+    messages = [
+        dict(id=message.id, batch_id=message.batch_id, i=message.i, m=message.m, r=message.r, verified=message.verified)
+        for message in data]
+    return messages
+
+def approve_messages(batch_id):
+    messages = Messages.query.filter(Messages.batch_id == batch_id, Messages.verified == "False").all()
+    for message in messages:
+        message.verified = "True"
+    db.session.commit()
 
 def insert_batch(batch):
     if batch:
@@ -40,7 +52,6 @@ def get_batch_info(batch_id):
 
 def insert_messages(msg_list):
     for msg in msg_list:
-        print(msg)
         message = Messages(batch_id=msg["batch_id"], i=msg["i"], m=msg["m"], r=msg["r"],
                            verified=msg["verified"])
         db.session.add(message)

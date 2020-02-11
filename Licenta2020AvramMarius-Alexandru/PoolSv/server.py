@@ -59,6 +59,9 @@ def post_mix(batch, batch_id, mixnet):
                 requests.post(sv["address"] + "ping", data=json.dumps({"batch_id": batch_id, "id": id,"peers":peers}))
             except Exception:
                 print("Server down")
+        start_addr = mixnet[0]["address"]
+        requests.post(start_addr+"mix",data = json.dumps(dict(batch_id=batch_id)))
+        quit(0)
         time.sleep(2)
 
 
@@ -101,7 +104,7 @@ def select_batch(messages):
 
 messages = []
 unique_messages = []
-last_id = 0
+last_id = 6
 while True:
     data, last_id = get_messages(last_id)
     messages.extend(data)

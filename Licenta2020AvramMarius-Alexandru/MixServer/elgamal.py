@@ -50,7 +50,6 @@ def generate_keys(bit_len=256, iConfidence=32):
 def partial_decrypt(s, c2, p):
     s_inv = mod_inv(s, p)
     m_enc = c2 * s_inv % p
-    m_enc = p - pow(m_enc, (p + 1) // 4, p)
     try:
         m = decode(m_enc)
     except:
@@ -62,7 +61,7 @@ def partial_decrypt(s, c2, p):
 def get_keys(p, g):
     if MR(p, 32) is False:
         raise AssertionError("Number not prime.")
-    x = random.randint(2, (p - 1) // 2)
+    x = random.randint(2, ((p - 1) // 2) - 1)
     h = pow(g, x, p)
 
     public_key = PublicKey(p, g, h)
@@ -86,8 +85,6 @@ def decrypt(key, c1, c2):
     s = pow(c1, key.x, key.p)
     s_inv = mod_inv(s, key.p)
     m_enc = c2 * s_inv % key.p
-    # m_enc = tonelli_shanks(m_enc, key.p)
-    m_enc = key.p - pow(m_enc, (key.p + 1) // 4, key.p)
     try:
         m = decode(m_enc)
     except:

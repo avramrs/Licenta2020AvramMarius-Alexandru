@@ -43,13 +43,11 @@ def create_request(action, value):
 
 def send_shares(f, peers_adr, peers_index, key_pair, PUBLIC_KEY):
     for peer_ident, adr in peers_adr.items():
-        sender_i = peers_index[peer_ident] + 1
-        # print("sender i:")
-        # print(sender_i)
+        receiver_i = peers_index[peer_ident] + 1
         peer_addr = link_to_addr(adr)
         success = False
         while success is False:
-            success = send_share(peer_addr, sender_i, f, key_pair["publicKey"].p, get_hex_key(PUBLIC_KEY))
+            success = send_share(peer_addr, receiver_i, f, key_pair["publicKey"].p, get_hex_key(PUBLIC_KEY))
 
 
 def send_share(addr, i, f, p, W):

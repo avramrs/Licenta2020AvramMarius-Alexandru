@@ -19,6 +19,14 @@ def get_id(id):
     return data
 
 
+def get_writer_id(id, W):
+    posts = Post.query.filter(Post.id >= id, Post.W == W)
+    if not posts:
+        return None
+    data = [dict(id=post.id, m=post.m, T=post.T, W=post.W, H=post.H, SW=post.SW, SB=post.SB) for post in posts]
+    return data
+
+
 def delete():
     nr_del = db.session.query(Post).delete()
     db.session.commit()
