@@ -92,7 +92,7 @@ vote_nr = get_vote_nr()
 
 stop_flag.set()
 stop_voting()
-
+print("Voting finished")
 opened_votes = 0
 last_id = 0
 results = [0] * len(answers)
@@ -112,11 +112,7 @@ while opened_votes < vote_nr:
                 l = int(l)
                 k = bytes.fromhex(k)
                 check_valid(l, k, answers, results)
-    print(results)
     opened_votes = sum(results)
+print(answers)
 print(results)
-with open("results.txt", "wb+") as f:
-    pickle.dump(results, f)
-with open("results.txt", "rb") as f:
-    results = pickle.load(f)
 requests.post(counter_addr + "results", data=json.dumps({"results": results,"pass":os.environ["C_PASS"]}))

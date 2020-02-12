@@ -63,6 +63,7 @@ def sign_message():
     db.update_voter(ID, hex(e), s)
     pv_key = app.config["SECRET_KEY"]
     signature = sign(pv_key, e)
+    print("Signed:{s}".format(s=signature))
     return dict(sig=signature)
 
 

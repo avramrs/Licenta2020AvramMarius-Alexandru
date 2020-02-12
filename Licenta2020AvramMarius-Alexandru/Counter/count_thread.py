@@ -24,6 +24,8 @@ class CountThread(Thread):
         while not self.stopped.wait(5):
             print("Getting Votes")
             messages = self.get_messages()
+            print("New messages:")
+            print(messages)
             if messages:
                 for message in messages:
                     batch = message.split("|")
@@ -37,6 +39,8 @@ class CountThread(Thread):
             x, y = map(int, message.split(","))
             rest = pow(y, self.admin_key.e, self.admin_key.n)
             if rest == x:
+                print("New vote:")
+                print(str(x)+","+str(y))
                 valid_msgs.append(dict(x=str(x), y=str(y)))
         return valid_msgs
 
@@ -44,7 +48,6 @@ class CountThread(Thread):
         vote_s = json.dumps(vote)
         data = {"pass": os.environ['C_PASS'], "vote": vote_s}
         response = requests.post(self.counter_addr + 'vote', data=json.dumps(data))
-        print(response.status_code)
 
     def get_messages(self):
         param = {"id": self.last_id + 1}

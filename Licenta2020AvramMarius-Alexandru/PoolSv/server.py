@@ -45,6 +45,8 @@ def post_mix(batch, batch_id, mixnet):
     # mix = [{W:"ceva",address:"link"}]
     # mesaj = {W:rsa_key,T:time_string,m:c1|c2}
     """m_list = id=batch_id|c1|c2|c1|c2..."""
+    print("Batch:")
+    print(batch)
     m_list = "|".join([m["m"] for m in batch])
     m_list = "id=" + str(batch_id) + "|" + m_list
     W = get_text_key()
@@ -61,6 +63,7 @@ def post_mix(batch, batch_id, mixnet):
                 print("Server down")
         start_addr = mixnet[0]["address"]
         requests.post(start_addr+"mix",data = json.dumps(dict(batch_id=batch_id)))
+        print("New mix started!")
         quit(0)
         time.sleep(2)
 
@@ -104,7 +107,7 @@ def select_batch(messages):
 
 messages = []
 unique_messages = []
-last_id = 6
+last_id = 0
 while True:
     data, last_id = get_messages(last_id)
     messages.extend(data)
@@ -113,7 +116,8 @@ while True:
             unique_messages.append(message["m"])
         else:
             messages.remove(message)
-    if len(messages) >= BATCH_SIZE:  # >= THRESHOLD
+    print("New messages:{m}".format(m=unique_messages))
+    if len(messages) >= THRESHOLD
         response = requests.get(BBOARD + "writers/" + writer_key)
         if response:
             m = json.loads(response.headers["data"])[-1]["m"].split("|")

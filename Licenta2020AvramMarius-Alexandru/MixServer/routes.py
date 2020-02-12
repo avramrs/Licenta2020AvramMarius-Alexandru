@@ -124,9 +124,9 @@ def prove():
             c1p = c1up * mod_inv(c1vp, p) % p
             c2p = c2up * mod_inv(c2vp, p) % p
             c = int(c, 16)
-            if pow(g, z, p) == k * pow(c1p, c, p) % p:
+            if pow(g, z, p) != k * pow(c1p, c, p) % p:
                 verified = False
-            if pow(h, z, p) == kk * pow(c1p, c, p) % p:
+            if pow(h, z, p) != kk * pow(c2p, c, p) % p:
                 verified = False
         if verified is True:
             d.approve_messages(batch_id)

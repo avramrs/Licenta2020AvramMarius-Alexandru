@@ -49,7 +49,7 @@
       <recent name="C:\Users\I\PycharmProjects\Counter\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Counter">
+  <component name="RunManager" selected="Python.client">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Counter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,6 +175,15 @@
       <workItem from="1581308221477" duration="113000" />
       <workItem from="1581349647481" duration="741000" />
       <workItem from="1581360649786" duration="602000" />
+      <workItem from="1581484951661" duration="2327000" />
+      <workItem from="1581489257715" duration="7000" />
+      <workItem from="1581489320332" duration="2138000" />
+      <workItem from="1581491734469" duration="482000" />
+      <workItem from="1581517698627" duration="541000" />
+      <workItem from="1581518571967" duration="754000" />
+      <workItem from="1581519574403" duration="1427000" />
+      <workItem from="1581522922346" duration="531000" />
+      <workItem from="1581527740089" duration="37000" />
     </task>
     <servers />
   </component>
@@ -190,22 +199,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="534" y="193" key="EnvironmentVariablesDialog/0.0.1600.860@0.0.1600.860" timestamp="1581173351286" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1581353577705">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1581523454482">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1581353577705" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1581353577705">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1581523454482" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1581523454482">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1581353577705" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1581353577705">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1581523454482" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1581523454482">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1581353577705" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1581353577705">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1581523454482" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1581523454482">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1581353577705" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1581523454482" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1581175592622">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -218,6 +227,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1581349646427" />
+    <state x="496" y="162" width="607" height="536" key="find.popup" timestamp="1581523276250">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="162" width="607" height="536" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1581523276250" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -230,8 +243,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Counter$client.coverage" NAME="client Coverage Results" MODIFIED="1581267007747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Counter$Counter.coverage" NAME="Counter Coverage Results" MODIFIED="1581349675544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Counter$client.coverage" NAME="client Coverage Results" MODIFIED="1581523320520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Counter$Counter.coverage" NAME="Counter Coverage Results" MODIFIED="1581523230414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Counter$test.coverage" NAME="test Coverage Results" MODIFIED="1581164535582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Counter$routes.coverage" NAME="routes Coverage Results" MODIFIED="1581165396241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
